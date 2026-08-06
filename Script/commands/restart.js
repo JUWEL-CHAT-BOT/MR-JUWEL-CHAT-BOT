@@ -13,7 +13,7 @@ module.exports.run = async function ({ api, event }) {
   const { threadID, messageID, senderID } = event;
   
   // শুধুমাত্র এই ইউজার আইডি চালাতে পারবে
-  const allowedUser = "61591542717221";
+  const allowedUser = "61592716197470";
   
   if (senderID !== allowedUser) {
     return api.sendMessage(
